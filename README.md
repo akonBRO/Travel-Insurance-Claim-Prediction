@@ -1,66 +1,60 @@
-Travel Insurance Claim Prediction 🧳🧠
-This project aims to build a machine learning model that predicts whether a customer will claim travel insurance based on demographic and trip-related data.
+# Travel Insurance Claim Prediction 🧳
 
-📂 Project Overview
+This project builds a machine learning model that predicts whether a customer will claim travel insurance based on demographic and trip-related data.
+
+## 📂 Project Overview
+
 The notebook includes:
+- Data preprocessing and cleaning  
+- Exploratory Data Analysis (EDA)  
+- Feature encoding and scaling  
+- Model training using multiple classifiers  
+- Model evaluation and accuracy comparison  
 
-Data preprocessing and cleaning
+## 📊 Dataset
 
-Exploratory Data Analysis (EDA)
+Features include:
+- Age, Employment Type, Graduate Status  
+- Annual Income, Family Members  
+- Frequent Flyer Status, Travelled Abroad  
+- Target: Travel Insurance Claim (Yes/No)
 
-Feature encoding and scaling
+## 🧠 Models Used
 
-Model training using multiple classifiers
+- Logistic Regression  
+- Decision Tree Classifier
+- Neural Network
+- Random Forest Classifier  
+- Support Vector Machine (SVM)
 
-Model evaluation and accuracy comparison
+## 📈 Results
 
-📊 Dataset
-The dataset contains customer information such as:
+Each model is evaluated using:
+- Accuracy Score  
+- Confusion Matrix  
+- Classification Report  
 
-Age, employment type, and graduate status
+## 🛠️ Requirements
 
-Annual income, family members
+Install required libraries:
 
-Frequent flyer status and ever traveled abroad
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn 
+```
+## ▶️ How to Run
+Run the notebook using:
 
-Travel insurance claim history (Target)
-
-🧠 Models Used
-Logistic Regression
-
-Decision Tree Classifier
-
-Random Forest Classifier
-
-Support Vector Machine (SVM)
-
-📈 Results
-The models are evaluated using accuracy, confusion matrix, and classification report. The notebook selects the best-performing model for the task based on these metrics.
-
-🛠️ Requirements
-Install the following Python packages:
-
-bash
-Copy
-Edit
-pip install pandas numpy scikit-learn matplotlib seaborn
-▶️ How to Run
-Open the notebook using Jupyter Notebook:
-
-bash
-Copy
-Edit
+```bash
 jupyter notebook "Travel Insurance Claim Prediction.ipynb"
-Follow the code blocks sequentially to preprocess the data and train the model.
+```
+Execute all cells step by step.
 
-📌 Future Improvements
-Hyperparameter tuning for better accuracy
+## 📌 Future Improvements
 
-Cross-validation
+- Hyperparameter tuning
+- Cross-validation
+- More advanced models like XGBoost or LightGBM
+- Web-based deployment
 
-Use of more advanced models (e.g., XGBoost, LightGBM)
-
-Deployment as a web app
-
-📃 License
-This project is open-source and available under the MIT License.
+## 📃 License
+This project is licensed under the MIT License.
